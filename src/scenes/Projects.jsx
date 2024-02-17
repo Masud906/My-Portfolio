@@ -64,7 +64,7 @@ const Projects = () => {
         </p>
       </motion.div>
 
-      {/* PROJECTS */}
+      PROJECTS
       <div className="flex justify-center">
         <motion.div
           className="sm:grid sm:grid-cols-3"
@@ -74,28 +74,80 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           {/* ROW 1 */}
-          <div
+          {/* <div
             className="flex justify-center text-center items-center p-10 bg-red
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             BEAUTIFUL USER INTERFACES
+          </div> */}
+          <div className="mr-8 mb-6">
+          <div className="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+            <div className="card-body">
+              <h2 className="card-title">
+                Shoes!
+                <div className="badge badge-secondary">NEW</div>
+              </h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div className="card-actions justify-end">
+                <div className="badge badge-outline">Fashion</div>
+                <div className="badge badge-outline">Fashion</div>
+                <div className="badge badge-outline">Products</div>
+              </div>
+            </div>
           </div>
-          <Project title="Project 1" />
-          <Project title="Project 2" />
+          </div>
+          {/* <Project title="Project 1" />
+          <Project title="Project 2" /> */}
 
           {/* ROW 2 */}
-          <Project title="Project 3" />
+          <div>
+          <div className="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+            <div className="card-body">
+              <h2 className="card-title">
+                Shoes!
+                <div className="badge badge-secondary">NEW</div>
+              </h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div className="card-actions justify-end">
+                <div className="badge badge-outline">Fashion</div>
+                <div className="badge badge-outline">Fashion</div>
+                <button className="badge badge-outline">Products</button>
+              </div>
+            </div>
+          </div>
+          </div>
+          {/* <Project title="Project 3" />
           <Project title="Project 4" />
-          <Project title="Project 5" />
+          <Project title="Project 5" /> */}
 
           {/* ROW 3 */}
-          <Project title="Project 6" />
-          <Project title="Project 7" />
-          <div
+          {/* <Project title="Project 6" />
+          <Project title="Project 7" /> */}
+          {/* <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             SMOOTH USER EXPERIENCE
+          </div> */}
+          <div className=""> 
+            {/* project-1 */}
+            <div className="card w-96 bg-base-100 shadow-xl">
+              <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+              <div className="card-body">
+                <h2 className="card-title">
+                  Shoes!
+                  <div className="badge badge-secondary">NEW</div>
+                </h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div className="card-actions justify-end">
+                  <div className="badge badge-outline">Fashion</div>
+                  <div className="badge badge-outline">Products</div>
+                  <div className="badge badge-outline">Products</div>
+                </div>
+              </div>
+            </div>
           </div>
         </motion.div>
       </div>
